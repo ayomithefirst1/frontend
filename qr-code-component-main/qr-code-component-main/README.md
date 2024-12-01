@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-Your local changes here
-=======
-Changes from the remote repository here
->>>>>>> origin/main
-
 # Frontend Mentor - QR code component
 
 ![Design preview for the QR code component coding challenge](./preview.jpg)
@@ -91,4 +85,3 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
->>>>>>> e15831ee1c5ab9032249deffb008ed491161e2a3
