@@ -3,62 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    /* Reset default browser styles */
     body, html {
       height: 100%;
       margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Center the content vertically and horizontally */
+    body {
       display: grid;
       place-items: center;
       background-color: rgba(218, 247, 237, 0.76);
+      font-size: 16px;
     }
-    .text{
-      display: block;
-    }
-    .h1{
-      font-size: 34px;
-    }
-    img{
-      border-radius:40px;
-      max-width: 100%;
-      max-height: 100%;
-    }
-   p{
-    margin: 5%;
-    font-size: 33px;
-    text-align: center;
-  font-family: "Sour Gummy", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 2px;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-   
 
+    /* QR Code container */
+    .qr-container {
+      width: 300px; /* Fixed size to maintain page size as before */
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Image styling */
+    .qr-container img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    /* Title Styling */
+    .qr-container h1 {
+      font-size: 24px;
+      margin: 20px 0 10px 0;
+      font-weight: bold;
+    }
+
+    /* Paragraph Styling */
+    .qr-container p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #333;
+      margin: 0;
+    }
+
+    /* Attribution Styling */
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
 <body>
-  <div>
-    <img src="./image-qr-code.png" alt="">
+
+  <!-- QR Code Container -->
+  <div class="qr-container">
+    <img src="./image-qr-code.png" alt="QR Code">
+    <h1>Improve your front-end skills by building projects</h1>
+    <p>Scan the QR code to visit Frontend Mentor <br> and take your coding skills to the <br> next level.</p>
   </div>
-<div class="text">
 
-  <h1>Improve your front-end skills by building projects</h1>
- <p >Scan the QR code to visit Frontend Mentor <br> and take your coding skills to the <br> level.</p>
-  
-</div>
-
+  <!-- Attribution -->
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">AYOMI OPEYEMI</a>.
   </div>
+
 </body>
 </html>
